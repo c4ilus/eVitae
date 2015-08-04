@@ -1,0 +1,446 @@
+/* ------------------------------ PAGE ---------------------------------------*/
+body
+{
+    font-family: Arial;
+    font-size: 13px;
+    background-color: #F1F1F1;
+    color: #666;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------------------- STYLES --------------------------------------*/
+h1
+{
+    text-shadow:1px 1px 1px #888;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0A1625;
+    height: auto;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px #ccc dashed;
+}
+
+img
+{
+    border: none;
+}
+
+/* ---------------------------- HAUT DE PAGE ---------------------------------*/
+.header
+{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: grey;
+}
+
+.header p
+{
+    width: 300px;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 3px;
+    padding-left: 15px;
+}
+
+.header p:hover
+{
+    border-bottom: 1px #222 solid;
+    color: #222
+}
+
+/* ---------------------------- PARTIE GAUCHE --------------------------------*/
+.menu
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.menu a
+{
+    display: block;
+    width: 100px;
+    padding: 50px 5px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    -webkit-opacity: 0.50;
+    opacity: 0.50;
+    -ms-filter: "alpha(opacity=50)";
+    background-repeat: no-repeat;
+    background-position: 35px 10px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+}
+
+.menu a:hover
+{
+    -webkit-opacity: 1;
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)";
+    background-color: white;
+    color: black;
+     -moz-box-shadow: 0px 0px 5px #ccc;
+     -webkit-box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+#perso
+{
+    background-image: url(../images/admin/perso.png);
+}
+
+#formations
+{
+    background-image: url(../images/admin/formations.png);
+}
+
+#experiences
+{
+    background-image: url(../images/admin/experiences.png);
+}
+
+#competences
+{
+    background-image: url(../images/admin/competences.png);
+}
+
+#langues
+{
+    background-image: url(../images/admin/langues.png);
+}
+
+#complements
+{
+    background-image: url(../images/admin/complements.png);
+}
+
+#liens
+{
+    background-image: url(../images/admin/liens.png);
+}
+
+#lexique
+{
+    background-image: url(../images/admin/lexique.png);
+}
+
+/* ---------------------------- PARTIE CENTRALE ------------------------------*/
+.main
+{
+    background-color: white;
+    margin: 5px 50px 0px 10px;
+    width: 83%;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    border:1px #ccc solid;
+    padding: 10px 30px 30px 30px;
+     -webkit-box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 5px #ccc;
+    position: absolute;
+    min-height: 600px;
+}
+
+/* --------------------------- FORMULAIRES -----------------------------------*/
+.button, .buttonprofil
+{
+    margin-top: 5px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color: #FF6600;
+    color: #FFF;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    border: 2px #FF6600 solid;
+}
+
+.button
+{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.buttonprofil
+{
+    top: 60px;
+    right: 30px;
+    position: absolute;
+}
+
+.button:hover, .buttonprofil:hover
+{
+   border: 2px white solid;
+}
+
+.profil input, .profil textarea
+{
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 13px;
+    margin-bottom: 15px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    font-style: italic;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #666;
+    background: #F1F1F1;
+    border: 1px #F1F1F1 solid;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+}
+
+.profil input:hover, .profil textarea:hover,
+.profil input:focus, .profil textarea:focus
+{
+    color: #222;
+    border: 1px #C4C4C4 solid;
+    font-weight: bold;
+}
+
+.profil textarea
+{
+    overflow: auto;
+    padding-bottom: 0px;
+    height: 100px;
+    width: 480px;
+}
+
+.profil input[type=text]
+{
+    width: 480px;
+}
+
+.profil img
+{
+    margin-right: 5px;
+}
+
+#mail, #twitter, #googleplus, #viadeo, #linkedin
+{
+    padding-left: 30px;
+    background-position: 0px 9px;
+    background-repeat: no-repeat;
+}
+
+#mail
+{
+    background-image: url(../images/admin/contact.png);
+}
+
+#twitter
+{
+    background-image: url(../images/admin/twitter.png);
+}
+
+#googleplus
+{
+    background-image: url(../images/admin/googleplus.png);
+}
+
+#viadeo
+{
+    background-image: url(../images/admin/viadeo.png);
+}
+
+#linkedin
+{
+    background-image: url(../images/admin/linkedin.png);
+}
+
+input#delete
+{
+    width: 23px;
+    height: 23px;
+    margin-left: 38px;
+    cursor: pointer;
+    background:transparent;
+    background-image: url(../images/delete.png);
+}
+
+.btnedit
+{
+    margin-top: -42px;
+    background: url(../images/edit.png) no-repeat;
+    background-position: 0px 2px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 999;
+    position: absolute;
+    right: 3%;
+}
+
+input, textarea
+{
+    border: none;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.add
+{
+    font-size: 13px;
+    font-weight: bold;
+    width:200px;
+    background-image: url(../images/add.png);
+    background-position: 35px 10px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 14px 15px 14px 80px;
+    -moz-box-shadow:0px 0px 8px #888;
+    -webkit-box-shadow: 0px 0px 8px #888;
+    box-shadow: 0px 0px 8px #888;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+}
+
+.add:hover
+{
+    cursor: pointer;
+}
+
+.add_form, .edit_form
+{
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    margin-top: 10px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+}
+
+.edit_form
+{
+    padding: 0px 10px 30px 10px;
+}
+
+.add_form
+{
+    border: 1px solid #ccc;
+    padding: 10px 10px 30px 10px;
+}
+
+.add_form input[type=text], .add_form textarea, .edit_form input[type=text], .edit_form textarea
+{
+    font-family: Arial;
+    font-size: 13px;
+    margin-bottom: 15px;
+    padding: 6px;
+    padding-left: 10px;
+    font-style: italic;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #666;
+    background: #F1F1F1;
+    border: 1px #F1F1F1 solid;
+    width: 500px;
+}
+
+.add_form input[type=text]:focus, .add_form textarea:focus, .edit_form input[type=text]:focus, .edit_form textarea:focus,
+.add_form input[type=text]:hover, .add_form textarea:hover, .edit_form input[type=text]:hover, .edit_form textarea:hover
+{
+    color: #222;
+    border: 1px #C4C4C4 solid;
+    font-weight: bold;
+}
+
+.add_form textarea, .edit_form textarea
+{
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+#infos tr:nth-child(4n+3)
+{
+  background-color: #FAF4FF;
+}
+
+#infos tr:nth-child(4n+1)
+{
+  background-color: #EFE1FF;
+}
+
+#infos
+{
+    position: relative;
+}
+
+#infos td
+{
+    padding: 5px 10px 5px 10px;
+}
+
+.notification
+{
+    position: absolute;
+    z-index: 9999;
+    padding: 15px;
+    top: -70px;
+    right: -10px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+    background-color: #688D1F;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+
+input#cp
+{
+    width:100px;
+}
+input#permis
+{
+    width:150px;
+}
+
+
+.note
+{
+    color:grey;
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+/* --------------------------- BAS DE PAGE -----------------------------------*/
+.footer
+{
+    color: grey;
+    font-size: 16px;
+    margin-left: 35px;
+    width: 91%;
+    padding-bottom: 30px;
+    display: none;
+}

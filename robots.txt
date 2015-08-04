@@ -1,0 +1,5 @@
+User-Agent: *
+
+Disallow:/blog
+
+Sitemap: http://www.romain-moro.fr/sitemap.xml

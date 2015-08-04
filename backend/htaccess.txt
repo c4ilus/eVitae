@@ -1,0 +1,4 @@
+AuthName "Page protégée"
+AuthType Basic
+AuthUserFile "/homez.324/romainmoh/www/backend/.htpasswd"
+Require valid-user
