@@ -27,7 +27,6 @@
 Header unset ETag
 FileETag none
 
-SetEnv PHP_VER 5_TEST
 SetEnv REGISTER_GLOBALS 0
 SetEnv SESSION_USE_TRANS_SID 0
 
