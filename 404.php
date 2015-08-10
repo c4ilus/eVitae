@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-    <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='fr' dir='ltr'>
+<!DOCTYPE html>
+    <html lang="fr">
         <head>
             <title>Erreur 404</title>
             <link rel='stylesheet' type='text/css' href='includes/css/front.css' />
